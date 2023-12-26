@@ -5,7 +5,7 @@ import { AppState } from 'state/reducer'
 import sortByListPriority from 'utils/listSort'
 
 import BROKEN_LIST from '../../constants/tokenLists/broken.tokenlist.json'
-import { DEFAULT_ACTIVE_LIST_URLS, UNSUPPORTED_LIST_URLS } from './../../constants/lists'
+import { DEFAULT_ACTIVE_LIST_URLS } from './../../constants/lists'
 
 type Mutable<T> = {
   -readonly [P in keyof T]: Mutable<T[P]>
@@ -75,9 +75,6 @@ export function useUnsupportedTokenList(): TokenAddressMap {
   // get hard-coded broken tokens
   const brokenListMap = useMemo(() => tokensToChainTokenMap(BROKEN_LIST), [])
 
-  // get dynamic list of unsupported tokens
-  const loadedUnsupportedListMap = useCombinedTokenMapFromUrls(UNSUPPORTED_LIST_URLS)
-
   // format into one token address map
-  return useMemo(() => combineMaps(brokenListMap, loadedUnsupportedListMap), [brokenListMap, loadedUnsupportedListMap])
+  return brokenListMap;
 }
