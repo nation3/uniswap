@@ -540,24 +540,24 @@ exports[`disable nft on landing page does not render nft information and card 1`
 }
 
 .c49 {
-  background-color: #C9EBFF;
+  background-color: #DEF1FC;
   color: #69C9FF;
   font-size: 20px;
   font-weight: 535;
 }
 
 .c49:focus {
-  box-shadow: 0 0 0 1pt #C9EBFF;
-  background-color: #C9EBFF;
+  box-shadow: 0 0 0 1pt #DEF1FC;
+  background-color: #DEF1FC;
 }
 
 .c49:hover {
-  background-color: #C9EBFF;
+  background-color: #DEF1FC;
 }
 
 .c49:active {
-  box-shadow: 0 0 0 1pt #C9EBFF;
-  background-color: #C9EBFF;
+  box-shadow: 0 0 0 1pt #DEF1FC;
+  background-color: #DEF1FC;
 }
 
 .c49:hover .c50 {
@@ -3184,24 +3184,24 @@ exports[`disable nft on landing page renders nft information and card 1`] = `
 }
 
 .c49 {
-  background-color: #C9EBFF;
+  background-color: #DEF1FC;
   color: #69C9FF;
   font-size: 20px;
   font-weight: 535;
 }
 
 .c49:focus {
-  box-shadow: 0 0 0 1pt #C9EBFF;
-  background-color: #C9EBFF;
+  box-shadow: 0 0 0 1pt #DEF1FC;
+  background-color: #DEF1FC;
 }
 
 .c49:hover {
-  background-color: #C9EBFF;
+  background-color: #DEF1FC;
 }
 
 .c49:active {
-  box-shadow: 0 0 0 1pt #C9EBFF;
-  background-color: #C9EBFF;
+  box-shadow: 0 0 0 1pt #DEF1FC;
+  background-color: #DEF1FC;
 }
 
 .c49:hover .c50 {

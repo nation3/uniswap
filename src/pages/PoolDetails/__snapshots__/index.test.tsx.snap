@@ -567,7 +567,7 @@ exports[`PoolDetailsPage pool header is displayed when data is received from the
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #C9EBFF;
+  background-color: #DEF1FC;
   border-radius: 16px;
   border: 0;
   color: #69C9FF;
