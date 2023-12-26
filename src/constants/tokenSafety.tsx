@@ -93,10 +93,6 @@ export function checkWarning(tokenAddress: string, chainId?: number | null) {
       return null
     case TOKEN_LIST_TYPES.UNI_EXTENDED:
       return MediumWarning
-    case TOKEN_LIST_TYPES.UNKNOWN:
-      return StrongWarning
-    case TOKEN_LIST_TYPES.BLOCKED:
-      return BlockedWarning
     case TOKEN_LIST_TYPES.BROKEN:
       return BlockedWarning
   }

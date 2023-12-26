@@ -2,7 +2,7 @@ import { TokenInfo } from '@uniswap/token-lists'
 import { ListsState } from 'state/lists/reducer'
 
 import store from '../state'
-import { UNI_EXTENDED_LIST, UNI_LIST, UNSUPPORTED_LIST_URLS } from './lists'
+import { UNI_EXTENDED_LIST, UNI_LIST } from './lists'
 import { COMMON_BASES } from './routing'
 import brokenTokenList from './tokenLists/broken.tokenlist.json'
 import { NATIVE_CHAIN_ID } from './tokens'
@@ -37,14 +37,6 @@ class TokenSafetyLookupTable {
     brokenTokenList.tokens.forEach((token) => {
       this.dict[token.address.toLowerCase()] = TOKEN_LIST_TYPES.BROKEN
     })
-
-    // Initialize blocked tokens from all urls included
-    UNSUPPORTED_LIST_URLS.map((url) => lists.byUrl[url]?.current?.tokens)
-      .filter((x): x is TokenInfo[] => !!x)
-      .flat(1)
-      .forEach((token) => {
-        this.dict[token.address.toLowerCase()] = TOKEN_LIST_TYPES.BLOCKED
-      })
   }
 
   checkToken(address: string, chainId?: number | null) {
