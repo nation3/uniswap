@@ -16,6 +16,7 @@ import {
   DAI_OPTIMISM,
   DAI_POLYGON,
   ETH_BSC,
+  NATION_MAINNET,
   nativeOnChain,
   OP,
   PORTAL_ETH_CELO,
@@ -67,10 +68,10 @@ const WRAPPED_NATIVE_CURRENCIES_ONLY: ChainTokenList = Object.fromEntries(
 export const COMMON_BASES: ChainCurrencyList = {
   [ChainId.MAINNET]: [
     nativeOnChain(ChainId.MAINNET),
+    NATION_MAINNET,
     DAI,
     USDC_MAINNET,
     USDT,
-    WBTC,
     WRAPPED_NATIVE_CURRENCY[ChainId.MAINNET] as Token,
   ],
   [ChainId.GOERLI]: [nativeOnChain(ChainId.GOERLI), WRAPPED_NATIVE_CURRENCY[ChainId.GOERLI] as Token],
