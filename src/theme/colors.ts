@@ -117,7 +117,7 @@ export const colors = {
   surface4_light: '#FFFFFF64',
   surface5_light: '#00000004',
   accent1_light: '#69C9FF',
-  accent2_light: '#FFEFFF',
+  accent2_light: '#C9EBFF',
   success: '#40B66B',
   critical: '#FF5F52',
   scrim: 'rgba(0, 0, 0, 0.60)',

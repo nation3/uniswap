@@ -223,7 +223,7 @@ export const vars = createGlobalTheme(':root', {
     surface4_light: '#ffffffa3',
     surface5_light: '#0000000a',
     accent1_light: '#69C9FF',
-    accent2_light: '#FFEFFF',
+    accent2_light: '#C9EBFF',
     success: '#40B66B',
     critical: '#FF5F52',
   },
