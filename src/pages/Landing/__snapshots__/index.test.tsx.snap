@@ -1455,7 +1455,7 @@ exports[`disable nft on landing page does not render nft information and card 1`
 }
 
 .c61 {
-  background: linear-gradient(93.06deg,#ff00c7 2.66%,#ff9ffb 98.99%);
+  background: linear-gradient(93.06deg,#14a8ff 2.66%,#94d6fc 98.99%);
   border: none;
   color: #FFFFFF;
   -webkit-transition: all 250ms ease;
@@ -1463,7 +1463,7 @@ exports[`disable nft on landing page does not render nft information and card 1`
 }
 
 .c61:hover {
-  box-shadow: 0px 0px 16px 0px #ff00c7;
+  box-shadow: 0px 0px 16px 0px #14a8ff;
 }
 
 .c62 {
@@ -4099,7 +4099,7 @@ exports[`disable nft on landing page renders nft information and card 1`] = `
 }
 
 .c61 {
-  background: linear-gradient(93.06deg,#ff00c7 2.66%,#ff9ffb 98.99%);
+  background: linear-gradient(93.06deg,#14a8ff 2.66%,#94d6fc 98.99%);
   border: none;
   color: #FFFFFF;
   -webkit-transition: all 250ms ease;
@@ -4107,7 +4107,7 @@ exports[`disable nft on landing page renders nft information and card 1`] = `
 }
 
 .c61:hover {
-  box-shadow: 0px 0px 16px 0px #ff00c7;
+  box-shadow: 0px 0px 16px 0px #14a8ff;
 }
 
 .c62 {
